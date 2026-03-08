@@ -55,7 +55,7 @@ a { color: inherit; text-decoration: none; }
 .hero-reference-image {
   width: 100%;
   min-height: 100vh;
-  background: url('assets/original-hero-banner.png') center top / cover no-repeat;
+  background: url('assets/mars-landscape.jpg') center top / cover no-repeat;
 }
 
 .eyebrow,
