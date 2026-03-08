@@ -8,35 +8,19 @@
   <meta property="og:title" content="Crimson Ascent" />
   <meta property="og:description" content="A cinematic landing page for Crimson Ascent, a philosophical hard science fiction novel set on Mars." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/mars-landscape.jpg" />
+  <meta property="og:image" content="assets/original-hero-banner.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero" id="top">
-    <div class="hero-overlay"></div>
-    <div class="hero-content container">
-      <p class="eyebrow">The Space Opera</p>
-      <h1><span>Crimson</span> Ascent</h1>
-      <h2>
-        In the boundless crimson wilderness of Mars,<br>
-        our isolation becomes both decree and revelation.
-      </h2>
-      <p class="lead">
-        Blending hard science fiction with deep philosophical undertones, <em>Crimson Ascent</em>
-        explores the unbreakable human spirit, the price of discovery, and the responsibilities
-        of those who step beyond Earth.
-      </p>
-      <p class="supporting">
-        With rich characters, stark Martian beauty, and a narrative shaped by wonder, risk,
-        and consequence, this is a story for readers who love intelligent speculative fiction.
-      </p>
-      <div class="cta-row">
-        <a class="button primary" href="https://amzn.asia/d/iF8ro8C" target="_blank" rel="noreferrer">Amazon Paperback</a>
-        <a class="button secondary" href="https://amzn.asia/d/iF8ro8C" target="_blank" rel="noreferrer">Amazon Hard-Cover</a>
-      </div>
+  <header class="hero hero-reference" id="top" aria-label="Crimson Ascent hero banner">
+    <div class="hero-reference-image" role="img" aria-label="Crimson Ascent banner showing a Martian landscape, vehicles, a habitat dome, and the novel tagline."></div>
+    <div class="sr-only">
+      <h1>Crimson Ascent</h1>
+      <p>In the boundless crimson wilderness of Mars our isolation becomes both decree and revelation.</p>
+      <p>Blending hard science fiction with deep philosophical undertones, Crimson Ascent explores the unbreakable human spirit, the price of discovery, and the responsibilities of those who step beyond Earth.</p>
     </div>
   </header>
 
@@ -45,16 +29,20 @@
       <div class="container split">
         <div class="copy-panel">
           <p class="section-kicker">About the novel</p>
-          <h3>Our solitude is just an illusion.</h3>
+          <h2>Our solitude is just an illusion.</h2>
           <p>
             Whether you are a seasoned enthusiast of space exploration or simply drawn to tales of
             adventure and discovery, this page invites you aboard the <em>Eos Horizon</em> and onward
             to the crimson world beyond.
           </p>
           <p>
-            The original site was rebuilt here as a lean static page for GitHub Pages, preserving the
-            dramatic visual tone while removing WordPress, hosting, tracking, and suspended-site clutter.
+            This static rebuild keeps the original cinematic tone of the Bluehost version while removing
+            WordPress, hosting clutter, tracking scripts, suspended-site dependencies, and unnecessary files.
           </p>
+          <div class="cta-row intro-cta">
+            <a class="button primary" href="https://amzn.asia/d/iF8ro8C" target="_blank" rel="noreferrer">Amazon Paperback</a>
+            <a class="button secondary" href="https://amzn.asia/d/iF8ro8C" target="_blank" rel="noreferrer">Amazon Hard-Cover</a>
+          </div>
         </div>
         <div class="book-showcase" aria-label="Book cover display">
           <div class="book-shadow"></div>
@@ -71,48 +59,48 @@
       <div class="container">
         <div class="section-heading">
           <p class="section-kicker">Meet the crew</p>
-          <h3>The people of the Eos Horizon</h3>
+          <h2>The people of the Eos Horizon</h2>
         </div>
         <div class="crew-grid">
           <article class="crew-card">
             <img src="assets/riya-kapoor.png" alt="Riya Kapoor" />
             <div class="crew-copy">
-              <h4>Riya Kapoor</h4>
+              <h3>Riya Kapoor</h3>
               <p>Commander<br>Habitat Scientist</p>
             </div>
           </article>
           <article class="crew-card">
             <img src="assets/elena-moreno.png" alt="Elena Moreno" />
             <div class="crew-copy">
-              <h4>Elena Moreno</h4>
+              <h3>Elena Moreno</h3>
               <p>Third Officer<br>Agricultural Scientist</p>
             </div>
           </article>
           <article class="crew-card">
             <img src="assets/david-leclerc.png" alt="David Leclerc" />
             <div class="crew-copy">
-              <h4>David Leclerc</h4>
+              <h3>David Leclerc</h3>
               <p>First Officer<br>Materials Scientist</p>
             </div>
           </article>
           <article class="crew-card">
             <img src="assets/marcus-hayes.png" alt="Marcus Hayes" />
             <div class="crew-copy">
-              <h4>Marcus Hayes</h4>
+              <h3>Marcus Hayes</h3>
               <p>Chief Engineer<br>Ex Marine</p>
             </div>
           </article>
           <article class="crew-card">
             <img src="assets/ada-torres.png" alt="Ada Torres" />
             <div class="crew-copy">
-              <h4>Ada Torres</h4>
+              <h3>Ada Torres</h3>
               <p>Linguist<br>Code Specialist</p>
             </div>
           </article>
           <article class="crew-card">
             <img src="assets/liam-hwang.png" alt="Liam Hwang" />
             <div class="crew-copy">
-              <h4>Liam Hwang</h4>
+              <h3>Liam Hwang</h3>
               <p>Navigator<br>Mathematician</p>
             </div>
           </article>
